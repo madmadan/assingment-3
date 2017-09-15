@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+              int num1, num2;
+              cout<<"Enter first number\t";
+              cin>>num1;
+              cout<<"Enter second number\t";
+              cin>>num2;
+              (num1>num2) ?cout<<num1<<"is greatest number":cout<<num2<<"is greatest number";
+              
+	return 0;
+}

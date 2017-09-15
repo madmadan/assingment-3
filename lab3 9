@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+              char x;
+              cout<<"Enter a character";
+              cin>>x;
+
+              if((x>='a' && x<='z') || (x>='A' && x<='Z'))
+              {
+                  cout<<"is alphabet",x;	
+              }
+              else if(x>='0' && x<='9')
+              {
+                  cout<<"is digit",x;
+              } 
+              else
+              {
+                  cout<<"is special character",x;
+              }
+	  return 0;
+}

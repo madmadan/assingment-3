@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+              int num1, num2, num3;
+              cout<<"Enter first number\t";
+              cin>>num1;
+              cout<<"Enter second number\t";
+              cin>>num2;
+              cout<<"Enter third number\t";
+              cin>>num3;
+              if(num1>num2&&num1>num3)
+              {
+                 cout<<"first number is maximum:which is ="<<num1;
+              }
+              else if(num2>num1&&num2>num3)
+              {
+                 cout<<"second number is maximum:which is ="<<num2;
+              }
+              else if(num3>num1&&num3>num2)
+              {
+                 cout<<"third number is maximum:which is ="<<num3;
+              }
+	return 0;
+}

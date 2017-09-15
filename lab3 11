@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	char x;
+              cout<<"Enter a week day number";
+              cin>>x;
+
+              if(x == '1') 
+              {
+                        cout<<"Monday",x;	
+              }
+              else if(x == '2')          
+              {
+              	cout<<"Tuesday",x;
+              } 
+              else if(x == '3')
+              {
+                        cout<<"Wednesday",x;  	
+              }
+              else if(x == '4')
+              {
+              	cout<<"Thursday",x;
+              }
+              else if(x == '5')
+              {
+              	cout<<"Friday",x;
+              }
+              else if(x == '6')
+              {
+              	cout<<"Saturnday",x;
+              }
+              else if(x == '7')
+              {
+              	cout<<"Sunday",x;
+              }
+              else if(x >= '8')
+              {
+              	cout<<"please enter number between 1-7";
+              }
+              
+              
+              
+	return 0;
+}

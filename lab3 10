@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+              char x;
+              cout<<"Enter a alphabet";
+              cin>>x;
+
+              if(x>='a' && x<='z') 
+              {
+                  cout<<"is lowercase alphabet",x;	
+              }
+              else if(x>='A' && x<='Z')
+              {
+                  cout<<"is uppercase alphabet",x;
+              } 
+              
+	  return 0;
+}
